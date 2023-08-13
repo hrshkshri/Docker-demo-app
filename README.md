@@ -12,8 +12,7 @@ Welcome to the Docker Compose Demo App! This example application showcases how t
 - [Running the App with Docker Compose](#running-the-app-with-docker-compose)
 - [Accessing the App](#accessing-the-app)
 - [Stopping and Cleaning Up](#stopping-and-cleaning-up)
-- [Customizing Configuration](#customizing-configuration)
-
+ 
 ## Prerequisites
 
 Before you begin, ensure you have the following prerequisites:
@@ -29,21 +28,16 @@ To get started with this demo app, follow these steps:
 
    ```bash
    git clone https://github.com/hrshkshri/docker-demo-app.git
-   cd Docker-demo-app
+   cd docker-demo-app
 
-2. Running the App with Docker Compose
-    To run the app using Docker Compose, simply execute the following command:
-
-    ```bash
+## Running the App with Docker Compose
     docker-compose up -d
 
-3. Accessing the App
+## Accessing the App
     http://localhost:3000
 
-4. Stopping and Cleaning Up
-    ```bash
+## Stopping and Cleaning Up
     docker-compose down
-
-5. Customizing Configuration
-    You can customize the app's configuration by editing the docker-compose.yml file. Adjust service names, ports, volumes, environment variables, and more according to your requirements.
-
+## Customizing Configuration 
+   You can customize the app's configuration by editing the docker-compose.yml file. Adjust service names, ports, volumes, and environment 
+variables, and more according to your requirements.    
